@@ -206,3 +206,26 @@ function swap(a,b){
 }
 
 // swap(100,200)
+
+
+
+
+// Question 12 Enter 2 numbers a,b - exchange their values without using third variable and print them 
+// Example:
+// Input:
+// 244
+// 566
+// Output:
+// 566
+// 244
+
+
+function swap2(num1,num2){
+      
+      [num1,num2]=[num2,num1] // distucture method here .......
+           
+           console.log(num1)
+           console.log(num2)
+}
+// swap2(1000,2000)
+
