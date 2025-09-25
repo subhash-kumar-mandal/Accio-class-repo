@@ -116,4 +116,18 @@ let deci = input/input1
  let number1 = 120;
    let number2 = 590;
    
-   console.log(number2-number1)
+//    console.log(number2-number1)
+
+
+// Question 7 Take a number and print out the last digit of the number.
+// Example:
+
+// Input:
+// 12
+// Output:
+// 2
+
+let Input = 12;
+let lastnum = Input%10
+
+// console.log(lastnum)
