@@ -77,4 +77,29 @@ let input1 = 4;
 
 let int = parseInt(input/input1)
 let deci = input/input1 
-console.log(deci-int)
+// console.log(deci-int)
+
+
+
+// Question 5 Take marks in 5 subjects A,B,C,D,E and print out the average of marks from five subject marks.
+
+// Example:
+// Input:
+// 45
+// 93
+// 23
+// 45
+// 65
+
+// Output:
+// 54.
+
+    let  A = 45
+    let  B = 93
+    let  C = 23
+    let  D = 45
+    let  E = 65
+    
+    let marks  = A+B+C+D+E ;
+    
+    console.log(marks/5)
