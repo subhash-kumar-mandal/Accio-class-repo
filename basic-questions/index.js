@@ -149,3 +149,18 @@ let l = iput%10
 // console.log(f) 
 // console.log(l) 
 
+
+
+// Question 9 Take a 2 digit number and print the reverse of that number .
+// Example:
+// Input:
+// 94
+// Output:
+// 49
+
+let numb1 = 94 ;
+
+let f1 = parseInt(numb1 /10) // 9
+let l1 = (numb1 %10)        // 4
+let rever = `${l1}${f1}`  // here is reverse .
+// console.log(Number(rever))
