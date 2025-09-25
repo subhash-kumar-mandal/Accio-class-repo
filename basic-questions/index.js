@@ -102,4 +102,18 @@ let deci = input/input1
     
     let marks  = A+B+C+D+E ;
     
-    console.log(marks/5)
+    // console.log(marks/5)
+
+
+    
+// Question 6 Take the cost price a and selling price b of a product, and print the profit obtained on the product. 
+// Input:
+// 120
+// 590
+// Output:
+// 470
+
+ let number1 = 120;
+   let number2 = 590;
+   
+   console.log(number2-number1)
