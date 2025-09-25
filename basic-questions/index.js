@@ -42,3 +42,19 @@ let b = 3;
 let num = 10; 
 let num1 = 4;
 // console.log(Math.floor(num/num1)) 
+
+
+
+
+// Question 3  Take two numbers a,b and print the exponential power of the first number raised by the second . 
+// Example:
+// Input:
+// 2
+// 3
+// Output:
+// 8
+
+   let num3 = 2;
+   let num4 = 3;
+ 
+//   console.log(num3**num4)
