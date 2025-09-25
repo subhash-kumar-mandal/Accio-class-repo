@@ -58,3 +58,23 @@ let num1 = 4;
    let num4 = 3;
  
 //   console.log(num3**num4)
+
+
+
+// Question 4 Take two numbers a,b and only print the decimal part of the result obtained when a is divided by b .
+
+// Question 4 Take two numbers a,b and only print the decimal part of the result obtained when a is divided 
+
+// Example:
+// Input:
+// 23
+// 4
+// Output:
+// 0.75
+
+let input = 23;
+let input1 = 4;
+
+let int = parseInt(input/input1)
+let deci = input/input1 
+console.log(deci-int)
