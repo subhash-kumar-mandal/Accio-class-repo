@@ -131,3 +131,21 @@ let Input = 12;
 let lastnum = Input%10
 
 // console.log(lastnum)
+
+
+
+// Question 8 Take a 2 digit number and return the first and last digits. 
+// input:
+// 98
+
+// Output:
+// 9
+// 8
+
+let iput = 98;
+
+let f = parseInt(iput/10)
+let l = iput%10
+// console.log(f) 
+// console.log(l) 
+
