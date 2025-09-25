@@ -183,3 +183,26 @@ function reverse(a){
 }
 
 // reverse(987)
+
+
+
+// Question 11 Enter 2 numbers a,b - exchange their values using third variable and print them 
+// input:
+// 244
+// 566
+
+// Output:
+// 566
+// 244
+
+
+function swap(a,b){
+       let third  = a ;
+           a = b ;
+           b = third
+           
+           console.log(a)
+           console.log(b)
+}
+
+// swap(100,200)
