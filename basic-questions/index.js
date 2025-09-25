@@ -164,3 +164,22 @@ let f1 = parseInt(numb1 /10) // 9
 let l1 = (numb1 %10)        // 4
 let rever = `${l1}${f1}`  // here is reverse .
 // console.log(Number(rever))
+
+// Question 10 Take a 3 digit number and print the reverse of that number
+// Example:
+// Input:
+// 987
+// Output:
+// 789
+
+function reverse(a){
+    let new1 =  a%100; // 89 
+   let first  = parseInt(a/100)
+   let last = new1%10 
+   let mid = parseInt(new1/10)
+   
+   let reverse = `${last}${mid}${first}`
+   console.log(Number(reverse))
+}
+
+// reverse(987)
