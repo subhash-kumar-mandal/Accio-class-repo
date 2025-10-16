@@ -55,7 +55,7 @@ const string = "hello";
 // (const bhi block scope hai haam ek hi name ke same const nhi bana sakte hai ?)
 
 const day = "monday";
-    //   day = "friday"; TypeError: Assignment to constant variable
+    //   const day (reintialized  not)  TypeError: Assignment to constant variable
     // [Note const ko reintialized nhi kar sakte hai kyuki const hai ]
 
  console.log(day)
@@ -67,3 +67,77 @@ const day = "monday";
 //                 |          |       |          |
 // Redeclarations  |    no    |  yes  |    no    |
 // reintialized    |   yes    |  yes  |    no    |
+
+
+
+
+
+
+
+// if else conditions 
+
+
+//        ___________________  (condition ek Boolean return karta hai NOTE : true ya false ese par if else run hota ya chlata hai
+//       |                     yadi  condition true return kare to if part ka code chalega or else nhi or yadi condition  
+//       |                     false return to else vola part ya code run hoga )
+//  if(condition){
+//   /// work  code
+// }else{
+// /// work code 
+// }
+
+
+// exp 1. 
+
+let age = 8;
+
+if(age>=18){
+    console.log("adlut")
+}else{
+    console.log("child")
+}
+
+
+// ---> if else if 
+// ye same if else bass haam extra condition check karne ke liye use karte hai 
+// [Note: yadi koi if ya else if condition true ho gyi to if break ho jyega or baki condition check nhi hogi]
+
+// exmple
+
+let age_1= 88;
+
+if(age_1>=0 && age_1<=12){
+    console.log("child");
+}else if(age_1>=13 && age_1<=17 ){
+    console.log("younger");
+}else if(age_1>=18 && age_1 <=55){
+    console.log("adult")
+}else{
+    console.log("old")
+}
+
+
+// nested if else if 
+// ye kuch new nhi hai yadi  bass ek if else ke under ek or if else  nested if else ya else if 
+
+// exmple 
+
+let check =3;
+
+if(check===0){
+    console.log("Zero")
+}else{
+    if(check%2==0){
+       if(check>0){
+        console.log("even +ve")
+       }else{
+        console.log("even -ve")
+       }
+    }else{
+   if(check>0){
+        console.log("odd +ve")
+       }else{
+        console.log("odd-ve")
+       }
+    }
+}
