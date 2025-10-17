@@ -31,3 +31,45 @@ console.log(find)
 
 // type casting   --> 1. Implicit (type coession);         2.Explicit(type conversion)
                     //   (jo js khud karta hai )            ( jo haam khud karte hai)
+
+        
+// exmple  
+ 
+
+// Explicit  type change
+
+let a = -28835.266;
+console.log(typeof a)
+
+let instring = String(a);
+console.log(typeof instring);
+
+let Inboolean = Boolean(a);
+console.log(typeof Inboolean);
+
+
+let str = "hello";
+let strnumber = Number(str);
+console.log(strnumber);
+let strboolen = Boolean(str);
+console.log(strboolen);
+
+
+//Implicit type change 
+
+ console.log(1 + "1")
+console.log(1 - "1")
+console.log(true + true)
+
+
+// switch case 
+
+let age = 18;
+
+switch(age>=18){
+    case true :
+        console.log("adult");
+        break;
+    case false :
+        console.log("child"); 
+}
