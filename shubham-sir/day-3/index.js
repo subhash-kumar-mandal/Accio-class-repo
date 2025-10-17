@@ -73,3 +73,85 @@ switch(age>=18){
     case false :
         console.log("child"); 
 }
+
+
+
+let month =100;
+
+switch(true){
+    case month===1||month===3||month===5||month===7||month===8||month===10||month===12:
+        console.log("31")
+        break;
+    case month===4 || month ===9 || month===6 || month===11:
+        console.log("30")
+        break
+    case month===2 :
+        console.log("28")
+        break;
+    default:
+        console.log("invalid month ")
+}
+
+
+let day = 1;
+switch (day) {
+    case 1:
+        console.log("monday")
+        break;
+    case 2:
+        console.log("tuesday")
+        break;
+    case 3:
+        console.log("wednesday")
+        break;
+    case 4:
+        console.log("thursday")
+        break;
+    case 5:
+        console.log("friday")
+        break;
+    case 6:
+        console.log("saturday")
+        break;
+    case 7:
+        console.log("sunday")
+        break;
+    default:
+        console.log("Invalid-input")
+
+}
+
+
+
+// nested switch
+
+let number = 2;
+switch (number === 0) {
+    case true: console.log("zero")
+        break;
+    case false:
+        switch (number > 0) {
+            case true:
+                switch (number % 2 === 0) {
+                    case true:
+                        console.log("even +ve")
+                        break;
+                    case false:
+                        console.log("odd +ve")
+                        break;
+                }
+                break;
+            case false:
+                switch (number % 2 === 0) {
+                    case true:
+                        console.log("even -ve")
+                        break;
+                    case false:
+                        console.log("odd -ve")
+                        break;
+                }break;
+
+
+        }break;
+
+}
