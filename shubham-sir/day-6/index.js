@@ -33,3 +33,33 @@ for(let i=1;i<=n1;i++){
     }
     console.log(str)
 }
+
+// power find 
+
+let num1 =5;
+let power = 3;
+let result=1;
+
+for(let i=1;i<=power;i++){
+result = num1 * result
+}
+console.log(result)
+
+
+// print table 
+let table = 6
+ for (let index = 1; index <=10; index++) {
+    console.log( `${table}*${index}=${table*index}`)
+    
+ }
+
+
+ let star = 2;
+ for(let k = 1; k<=star;k++){
+     console.log("*".repeat(star))
+    // let str = "";
+    // for(let k2=1;k2<=star;k2++){
+    //     str += "*";
+    // }
+    // console.log(str)
+ }
