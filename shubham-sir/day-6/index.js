@@ -63,3 +63,20 @@ let table = 6
     // }
     // console.log(str)
  }
+
+
+//  print recangle patten 
+
+let row = 4;
+let col = 10;
+for(let i=1;i<=row;i++){
+    let str ="";
+    for(let j=1;j<=col;j++){
+        if(i===1  || j===col ||j===1 || i===row ){
+            str += "* "
+        }else{
+            str += "  "
+        }
+    }
+    console.log(str)
+}
