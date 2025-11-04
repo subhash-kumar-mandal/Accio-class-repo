@@ -67,3 +67,28 @@ function hello (){
 
 // console.log(str,str1,str2)
 // referenceError  not defined  all have functonal scope 
+
+
+
+//  arrays ;
+// ek liner data type  jo ek collection ki list hoti hai 
+//  
+// Array.length  (how many element inside array .);
+// arra index start always 0 index 
+//  space ka bhi index count hoga " " 
+
+let arr = [1,"good",true,5,"hello",false];
+console.log(arr)
+
+
+// for loop on array 
+
+let array = [1,2,3,4,5,6,7,8,9];
+for(let i=0;i<array.length;i++){
+    console.log(array[i]);
+}
+
+
+// for(let i=array.length-1;i>=0;i--){
+//     console.log(array[i])
+// }
