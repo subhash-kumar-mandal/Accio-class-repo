@@ -10,3 +10,15 @@ return arra.length
 }
 
 console.log(name1(arra,num))
+
+
+let find_diff =(arra)=>{
+    let max = -Infinity;
+    let min = +Infinity;
+    for(let item of arra){
+        max =Math.max(max,item);
+        min =Math.min(min,item);
+    };
+    console.log(max-min);
+}
+find_diff(arra);
