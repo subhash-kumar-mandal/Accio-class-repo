@@ -42,3 +42,33 @@ let target =6
 
 
   
+let new_arra =[6,-4,3,2,-3]
+let size1 = new_arra.length;
+  function splitArray (N, arr){
+	// Write your code here
+
+	let sum=0;
+	for(let item of arr){
+		sum+=item 
+	}
+
+	let temp= sum;
+	let sp =-1;
+	 
+	 for(let i=0;i<N;i++){
+		temp -=arr[i];
+		if(temp == (sum/2)){
+			sp=i	
+		}
+	 }
+
+	 if(sp== -1){
+		console.log("Not Possible")
+	 }else{
+		console.log(arr.slice(0,sp+1).join(" "))
+		console.log(arr.slice(sp+1,N).join(" "))
+	 }
+	
+}
+
+splitArray(size1,new_arra);
