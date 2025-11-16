@@ -27,3 +27,28 @@ console.log(stri.toUpperCase());
 
 let stri1 ="HELLO";
 console.log(stri1.toLowerCase());
+
+let name ='aman kumar';
+console.log(name.slice(1,8)) // man kum
+console.log(name.slice(-4,-1)); // uma
+
+
+console.log(name.includes("m")) // true ya fale btata hai;
+console.log(name.includes("gdgs")) // false ;
+console.log(name.includes("a",0)) // index plus value chexk karna 
+
+
+
+console.log(name.concat(" i am b.TECH student ")); // string ko margekarna;
+console.log(name.endsWith("kumar"))// end ke part ko check karna ki kis word se end ho rah rha hai;
+console.log(name.startsWith("aman")) // start ke part ko check karna kis se start hai;
+// true ya false mmein return karna ;
+
+let new_str = "hello";
+console.log(new_str.indexOf('l',5))// index mile to de do varna  -1 do;
+
+
+let messge  = "    i love you bro    ";
+console.log(messge.trimStart());
+console.log(messge.trimEnd());
+console.log(messge.trim())
