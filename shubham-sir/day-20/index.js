@@ -39,3 +39,26 @@ let bs_reverse =(arra,tar)=>{
     return -1
 }
 console.log(bs_reverse(arr1,80));
+
+
+// objects ;
+// ->  object have key value pair ;
+// -> object dot notation ;
+
+let obj ={
+    name:"subhash",
+    age :20
+}
+console.log(obj.name);
+console.log(obj['age']);
+
+// add 
+obj.fovcolor="red";
+console.log(obj);
+// ->  update;
+obj['name'] = 'aman';
+// delete
+delete obj.fovcolor;
+console.log(obj)
+
+
