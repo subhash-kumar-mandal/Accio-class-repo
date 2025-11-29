@@ -64,3 +64,22 @@ let arra = [5 ,6 ,4 ,6 ,1 ,2];
 
 console.log(firstIndex(arra,6,0))
 
+
+
+
+
+let  arra1 =[1,2,3,4]
+
+function printReverseArrayRecursive(arr, i, n) {
+  
+  console.log(sumarr(arr,n))
+	
+}
+
+function sumarr (arr,i){
+    if(i==0){
+        return arr[i];
+    }
+   return `${arr[i]} `+sumarr(arr,i-1)
+}
+printReverseArrayRecursive (arr1,0,arra1.length-1)
