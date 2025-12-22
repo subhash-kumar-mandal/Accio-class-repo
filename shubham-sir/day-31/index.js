@@ -19,3 +19,4 @@ function quickSort(arr) {
 
     return [...sortedSm, pivot, ...sortedLg];
 }
+
